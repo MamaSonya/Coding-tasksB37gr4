@@ -5,12 +5,22 @@ import java.util.Scanner;
 public class Number_FINRA_DivisibleBy3_5 {
 
     public static void main(String[] args) {
-        /*
-        If I need to create just a function for this task,
-        I will use my Finra method as a function in my main method.
-         */
 
-        Finra(30);
+        for (int i = 1; i <=30; i++) {
+            if (i%3==0&&i%5==0){
+                System.out.print("FINRA"+" ");
+            } else if (i%3==0) {
+                System.out.print("FIN"+" ");
+            } else if (i%5==0) {
+                System.out.print("RA"+" ");
+            }else{
+                System.out.print(i+" ");
+            }
+
+        }
+
+
+        //Finra(30);
 
         //FinraArray();
         //FinraScanner();
@@ -20,11 +30,11 @@ public class Number_FINRA_DivisibleBy3_5 {
     public static void Finra(int num){
         for (int i = 1; i <=num; i++) {
             if (i%3==0&&i%5==0){
-                System.out.print(" FINRA ");
+                System.out.print("FINRA"+" ");
             } else if (i%3==0) {
-                System.out.print(" FIN ");
+                System.out.print("FIN"+" ");
             } else if (i%5==0) {
-                System.out.print(" RA ");
+                System.out.print("RA"+" ");
             }else{
                 System.out.print(i+" ");
             }
