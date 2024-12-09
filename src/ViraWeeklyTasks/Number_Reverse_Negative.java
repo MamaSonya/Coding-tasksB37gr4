@@ -20,7 +20,6 @@ negative number and return it as int
         int lastDigit;
 
 
-
          while (x != 0){
 
              //1 store last digit
