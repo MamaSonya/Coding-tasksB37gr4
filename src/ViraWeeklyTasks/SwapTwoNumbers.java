@@ -37,5 +37,4 @@ public class SwapTwoNumbers {
         System.out.println("a = " + a); //=> a = 7
         System.out.println("b = " + b); //=> b = 5
     */
-
 }
