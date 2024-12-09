@@ -22,5 +22,4 @@ public class OddOrEven {
              return "Odd";
          }
      }
-
 }
