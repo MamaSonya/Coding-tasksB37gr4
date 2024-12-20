@@ -4,11 +4,11 @@ public class Number_ReverseNegative_W4 {
 
         public static int reverseNegative(int num) {
 
-            if (num >= 0) return num;         // Check if the number is negative
+            if (num >= 0) return num;              // Check if the number is negative
 
-                                             // Convert to positive, reverse using StringBuilder, and make it negative again
+                                                   // Convert to positive, reverse using StringBuilder, and make it negative again
             String reversedString = new StringBuilder(String.valueOf(-num)).reverse().toString();
-            return -Integer.parseInt(reversedString);
+            return -Integer.parseInt(reversedString);    // Parse method converts a string number into integer or the opposite way
         }
 
         public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class Number_ReverseNegative_W4 {
             System.out.println("Reversed number: " + reversed);              // Output: -321
         }
     }
+
 
 /*  Here is my  Explanation:
 
