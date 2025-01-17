@@ -31,6 +31,7 @@ public class FrequencyOfCars_W5 {
 
 
     public static void main(String[] args) {
+
         System.out.println(frequencyOfChars1("aaabbbcccdddEEEFFF"));
     }
 
