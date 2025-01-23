@@ -13,14 +13,14 @@ public class FindUniqueChars_W7 {
 
         StringBuilder uniqueChars = new StringBuilder();
 
-        for (int i = 0; i < str.length(); i++) {//12 characters in str "AAABBBCCCDEF"
+        for (int i = 0; i < str.length(); i++) {//"AAABBBCCCDEF"
 
             // retrieve each character from string "A" "B"...
-            char currentChar = str.charAt(i);
+            char currentChar = str.charAt(i);// 'A'
 
             //comparing index of first occurrence from the left and the first occurrence from the right
             if (str.indexOf(currentChar) == str.lastIndexOf(currentChar)) {
-                uniqueChars.append(currentChar);
+                uniqueChars.append(currentChar);//concat
             }
         }
 
