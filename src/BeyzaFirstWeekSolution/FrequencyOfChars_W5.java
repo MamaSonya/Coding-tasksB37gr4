@@ -12,7 +12,7 @@ public class FrequencyOfChars_W5 {
 
         public static String frequencyOfChars(String s) {
 
-            int[] frequent = new int[26]; //will be store frequency of chars A-Z.
+            int[] frequent = new int[26]; //will be store frequency of chars A-Z
 
 
             for (int i = 0; i < s.length(); i++) {
