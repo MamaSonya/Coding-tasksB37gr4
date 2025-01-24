@@ -1,4 +1,4 @@
-package AndreaFirstWeekTask;
+package olga_weekly_tasks_solutions.AndreaFirstWeekTask;
 
 public class ReverseString_W8 {
 
