@@ -1,5 +1,10 @@
 package grishaTasksSolutions;
 
+/*
+   Write a return method that can find the unique characters from the String
+           Ex: unique("AAABBBCCCDEF") ==> "DEF";
+
+    */
 public class FindUniqueChar_W7 {
 
         public static String FindUniqueChars(String str) {
@@ -16,12 +21,11 @@ public class FindUniqueChar_W7 {
 
 
 /*
-    1.	Compact Logic:
-	    •	Directly checks if a character is unique (indexOf == lastIndexOf) in a single condition.
-	2.	Eliminated Braces:
-	    •	Uses single-line if and for statements for conciseness.
-	3.	Minimal Variables:
-	    •	No additional variables, just unique to store the result.
-
+        1.	Compact Logic:
+            •	Directly checks if a character is unique (indexOf == lastIndexOf) in a single condition.
+        2.	Eliminated Braces:
+            •	Uses single-line if and for statements for conciseness.
+        3.	Minimal Variables:
+            •	No additional variables, just unique to store the result.
 
  */
