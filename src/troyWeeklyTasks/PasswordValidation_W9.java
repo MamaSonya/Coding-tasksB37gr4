@@ -17,5 +17,44 @@ public class PasswordValidation_W9 {
 
     //Beyza is volunteer
 
+    public static boolean passwordIsValid(String password) {
+
+        boolean hasLowerCaseChar = password.matches("(.*[a-z].*)"),
+                hasUpperCaseChar = password.matches("(.*[A-Z].*)"),
+                hasDigits = password.matches("(.*[0-9].*)"),
+                hasSpecialChar = password.matches("(.*[ -/, :-@].*)");
+
+        if(password.length() >= 6 && !password.contains(" ")) {
+            if (hasLowerCaseChar && hasUpperCaseChar && hasDigits && hasSpecialChar) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    public static boolean passwordIsValid2(String password){
+        boolean hasLowerCase =false,
+                hasUpperCase=false,
+                hasDigit=false,
+                hasSpecialCh = false;
+
+        if(password.length() >= 6 && !password.contains(" ")){
+            for (int i = 0; i < password.length(); i++) {
+                if(Character.isUpperCase(password.charAt(i))) {
+                    hasUpperCase = true;
+                }else if(Character.isLowerCase(password.charAt(i))){
+                    hasLowerCase = true;
+                }else if(Character.isDigit(password.charAt(i))){
+                    hasDigit = true;
+                }else if(!Character.isLetterOrDigit(password.charAt(i))) {
+                    hasSpecialCh = true;
+                }
+            }
+        }
+        return hasUpperCase && hasLowerCase && hasDigit && hasSpecialCh;
+    }
+
 
 }
