@@ -24,16 +24,25 @@ public class FreaquencyOfCars_W5 {
 
         for (char ch : str.toCharArray()) {
 
-            if (map.get(ch) == null ) {
+            if (map.get(ch) == null ) {  // if (!map.contains(ch))
                 map.put(ch, 1);
             } else {
                 map.put(ch, map.get(ch) + 1);
             }
         }
 
-        map.forEach((k, v) ->{
+        /*
+         map.forEach((k, v) ->{
             System.out.print(k + "" + v);
         } );
+         */
+
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            System.out.print(entry.getKey() + "" + entry.getValue());
+        }
+
+
+
 
         System.out.println();
 
