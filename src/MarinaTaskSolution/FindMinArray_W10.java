@@ -4,7 +4,6 @@ public class FindMinArray_W10 {
 
     public static int findMin(int[] numbers) {
         int min = numbers[0]; // Start with the first element
-
         for (int num : numbers) {
             if (num < min) {
                 min = num; // Update min if a smaller number is found
