@@ -1,6 +1,6 @@
 package grishaTasksSolutions;
 
-public class FrequencyOfCaracters_W5 {
+public class FrequencyOfCaracters_W6 {
 
     public static String frequencyOfChars(String str) {
 
