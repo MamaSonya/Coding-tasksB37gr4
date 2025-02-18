@@ -1,6 +1,6 @@
 package grishaTasksSolutions;
 
-public class RemoveDuplicates_W6 {
+public class RemoveDuplicates_W5 {
 
         public static String removeDuplicates(String str) {
             String result = "";  // This will store the final string without duplicates.

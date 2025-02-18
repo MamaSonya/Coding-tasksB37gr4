@@ -1,6 +1,6 @@
 package grishaTasksSolutions;
 
-public class SwapTwoVariableValues {
+public class SwapTwoVariableValues_W1 {
 
     public static void main(String[] args) {
 

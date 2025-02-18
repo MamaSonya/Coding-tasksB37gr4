@@ -1,6 +1,6 @@
 package grishaTasksSolutions;
 
-public class Odd_or_Even {
+public class Odd_or_Even_W2 {
 
 
         public static String determine (int number) {
