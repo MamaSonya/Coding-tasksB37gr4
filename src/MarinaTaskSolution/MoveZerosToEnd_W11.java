@@ -27,3 +27,9 @@ public class MoveZerosToEnd_W11 {
 //	•	i iterates through the array.
 //	•	j tracks where the next nonzero element should go.
 //	•	When a nonzero is found, it swaps with the element at j and increments j.
+
+/*
+	If arr[i] is nonzero, swap it with arr[j].
+	Increment j to track the next position for a nonzero number.
+	Continue looping until the end, ensuring all zeros naturally shift to the back.
+ */
